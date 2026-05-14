@@ -1,0 +1,17 @@
+{
+  "editor.codeActionsOnSave": {
+    "source.fixAll": "explicit",
+    "source.organizeImports": "explicit",
+    "source.sortMembers": "explicit"
+  },
+
+  "tailwindCSS.classAttributes": ["class", "className"],
+
+  "tailwindCSS.experimental.classRegex": [
+    ["className\\s*=\\s*\"([^\"]*)\"", "([^\\s]+)"]
+  ],
+
+  "editor.quickSuggestions": {
+    "strings": true
+  }
+}

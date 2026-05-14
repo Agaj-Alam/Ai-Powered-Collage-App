@@ -1,0 +1,15 @@
+package com.agaj.subhartiBackend.entity;
+
+public enum LeaveStatus {
+    PENDING_AT_DEAN,
+    APPROVED_BY_DEAN,
+    REJECTED_BY_DEAN,
+    PENDING_AT_WARDEN,
+    APPROVED_BY_WARDEN,
+    REJECTED_BY_WARDEN,
+    PENDING_AT_CHIEF_WARDEN,
+    APPROVED_BY_CHIEF_WARDEN,
+    REJECTED_BY_CHIEF_WARDEN,
+    FULLY_APPROVED,
+    REJECTED
+}

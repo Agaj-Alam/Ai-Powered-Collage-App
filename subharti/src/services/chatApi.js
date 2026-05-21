@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const BASE_URL = "http://10.59.65.144:8080";
+const BASE_URL = "http://10.177.103.144:8080";
 
 export const sendMessageToAI = async (message) => {
   try {

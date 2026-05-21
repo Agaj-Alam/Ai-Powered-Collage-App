@@ -5,9 +5,7 @@ export default function DeanLayout() {
   return (
     <Stack
       screenOptions={{
-        headerStyle: { backgroundColor: "#2f2fa2" },
-        headerTintColor: "#fff",
-        headerTitleAlign: "center",
+        headerShown: false,
       }}
     />
   );

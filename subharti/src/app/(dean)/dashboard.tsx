@@ -164,7 +164,7 @@ const DeanDashboard = () => {
             <TouchableOpacity
               onPress={handleLogout}
               className="bg-white/10 p-3 rounded-2xl"
-              style={{ borderWidth: 1, borderColor: 'rgba(255,255,255,0.15)' }}
+              style={{ borderWidth: 1, borderColor: 'rgba(255,255,255,0.16)' }}
               activeOpacity={0.7}
             >
               <Ionicons name="log-out-outline" size={22} color="white" />
